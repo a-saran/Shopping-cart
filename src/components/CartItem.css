@@ -1,0 +1,77 @@
+.m_box{
+    /* border: 1px solid #efefef; */
+    padding: 0px; 
+    height: 75px;
+    width: 55%;
+    margin: 5px;
+    /* box-shadow: 0 0 5px rgb(134, 134, 134); */
+}
+.sq_box{
+    /* box-shadow: 0 0 5px rgb(134, 134, 134); */
+    border: 1px solid #cccccc;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* margin-right: 5%; */
+    /* margin-left: 5%; */
+}
+.card-body{
+    padding: 0;
+}
+.card-title ,.card-subtitle{
+    margin-top: 10px;
+    padding-left: 25px;
+}
+.bor{
+    border: solid 1px rgb(148, 148, 148);
+}
+
+
+.sym-plus{
+    margin-right: 7%;
+    margin-left: 2%;
+    cursor: pointer;
+    padding-top: 17px;
+    margin-top: 11px;
+}
+.sym-mi{
+    margin-left: 5%;
+    margin-right: 2%;
+    cursor: pointer;
+    padding-top: 17px;
+    margin-top: 11px;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.prices {
+    /* padding-top: 30px; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cross{
+     margin-top: 24px; 
+     margin-right: 10px;
+    cursor: pointer;
+}
+.card-in{
+padding-top: 11px;
+width: 50%;
+float: left;
+}
+
+.pri_box {
+    border: 1px solid #dddddd;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10%;
+    border-bottom: 2px solid green;
+}
+
+
+

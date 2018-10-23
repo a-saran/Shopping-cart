@@ -1,0 +1,103 @@
+.quantity{
+    margin-left: 60%;
+}
+.subtotal{
+    margin-left: 10%;
+}
+@media screen and (max-width: 990px){
+    .text-muted{
+        font-size: 13px;
+    }
+    .sym-mi {
+        margin-left: 1%;
+        margin-right: 1%;
+        cursor: pointer;
+        padding-top: 15px;
+    }
+    .sym-plus {
+        margin-right: 1%;
+        margin-left: 1%;
+        cursor: pointer;
+        padding-top: 17px;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .quantity{
+        margin-left: 52%;
+        font-size: 13px;
+    }
+    .subtotal{
+        margin-left: 5%;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 770px) {
+    ._fixedr {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        margin-top: 480px;
+    }
+    ._fixedl {
+        margin-top: 10px;
+    }
+    hr {
+        margin: 10px 0;
+    }
+    .sym-mi {
+        margin-left: 1%;
+        margin-right: 1%;
+        cursor: pointer;
+        padding-top: 15px;
+        margin-top: 11px;
+    }
+    .sym-plus {
+        margin-right: 1%;
+        margin-left: 1%;
+        cursor: pointer;
+        padding-top: 17px;
+        margin-top: 11px;
+    }
+    .m_box {
+        width: 50%;
+    }
+    .box{
+        width: 250px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .text-muted{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 400px){
+    .text-muted{
+        font-size: 10px;
+    }
+    .sq_box{
+        border: 1px solid #cccccc;
+        height: 40px;
+        padding: 5px;
+        margin: 2px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .card-title, .card-subtitle{
+        padding-left: 5px;
+    }
+    .card-in{
+        padding-top: 11px;
+        width: 35%;
+        float: left;
+    }
+    ._fixedr {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        margin-top: 540px;
+    }
+}
